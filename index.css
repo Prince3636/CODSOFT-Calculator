@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    max-width: 100%;
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.screen {
+    padding: 0.7rem;
+    border-radius: 1rem;
+    background: none;
+    color: white;
+    border: 3px solid white;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 1px 2px 3px black;
+    font-size: 1rem;
+    font-weight: 600 ;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600 ;
+}
+
+.gridcontainer {
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 3px black;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.gridcontainer:hover{
+    background-color: rgb(31, 159, 179);
+    color: white;
+}
+#symbol{
+    background-color: #B5FFFC;
+}
+#symbol:hover{
+    background-color: rgb(237, 82, 82);
+    color: white;
+}
+.calculator {
+    max-width: 40rem;
+    border: none;
+    padding: 2.5rem;
+    background-color: #7ee4fb;
+    background-image: linear-gradient(62deg, #e4fb7e 0%, #68ddf7 100%);
+    border-radius: 1.5rem;
+    box-shadow: 1px 2px 3px black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #b5d0ff 100%);
+
+
+}
